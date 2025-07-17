@@ -6,7 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <../zmk-nodefree-config/keypos_def/keypos_defkeypos_58keys.h>
+#include <../zmk-nodefree-config/keypos_def/keypos_58keys.h>
 
 / {
     behaviors {
