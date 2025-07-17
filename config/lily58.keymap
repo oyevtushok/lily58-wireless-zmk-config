@@ -6,6 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <./keypos_58keys.h>
 
 / {
     behaviors {
@@ -17,7 +18,7 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            /* hold-trigger-key-positions = < ... >; // List of keys on the right side of the keyboard */
+            hold-trigger-key-positions = < KEYS_R KEYS_THUMB >; // List of keys on the right side of the keyboard
             hold-trigger-on-release;
         };
         hrmr: home_row_mod_right {
@@ -28,7 +29,7 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            /* hold-trigger-key-positions = < ... >; // List of keys on the left side of the keyboard */
+            hold-trigger-key-positions = < KEYS_L KEYS_THUMB >; // List of keys on the left side of the keyboard
             hold-trigger-on-release;
         };
     };
