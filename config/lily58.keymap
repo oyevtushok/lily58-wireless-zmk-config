@@ -14,7 +14,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = <180>;
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
@@ -25,7 +25,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = <180>;
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
@@ -87,7 +87,7 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &trans      &trans             &trans           &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC                    &none      &none            &kp SYSREQ    &none      &none  &none
+&trans  &trans      &trans             &trans           &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC                    &none      &none            &kp PRINTSCREEN    &none      &none  &none
 &none   &none       &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp K_MUTE            &none                                   &kp PG_UP  &kp HOME         &kp UP_ARROW  &kp END    &none  &none
 &trans  &kp K_PREV  &kp K_NEXT         &kp K_STOP       &kp K_PLAY_PAUSE      &none                                   &kp PG_DN  &kp LEFT         &kp DOWN      &kp RIGHT  &none  &none
 &none   &none       &none              &none            &none                 &none                 &trans    &trans  &none      &kp LC(LS(TAB))  &kp LC(TAB)   &none      &none  &to 0
