@@ -17,6 +17,7 @@
             require-prior-idle-ms = <180>;
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
+            global-quick-tap;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = < KEYS_R KEYS_THUMB >; // List of keys on the right side of the keyboard
             hold-trigger-on-release;
@@ -28,6 +29,7 @@
             require-prior-idle-ms = <180>;
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
+            global-quick-tap;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = < KEYS_L KEYS_THUMB >; // List of keys on the left side of the keyboard
             hold-trigger-on-release;
